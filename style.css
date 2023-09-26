@@ -1,0 +1,66 @@
+body{
+    background-color: #ffffff;
+}
+.contain {
+    margin:auto; 
+    padding: 20px ;
+    width: 60%;
+    border: 5px outset #2b6777;
+    background-color:#c8d8e4 ;
+    text-align: center;
+}
+
+h1{
+    color:#2b6777;
+
+}
+#input{
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color:#c8d8e4 ;
+    border: none;
+    border:2px solid #2b6777;
+    color:#ffffff;
+    font-family: cursive;
+    font-size: 16px;
+
+}
+input:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 3px #52ab98;
+    transition: 0.7s;
+}
+button{
+    
+    background-color:#52ab98 ;
+    border:2px solid #2b6777;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+button:active{
+    background-color: #2b6777;
+}
+
+.container ul{
+    position: relative;
+    text-align:left; 
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 18px;
+}
+.container .fa-trash{
+    position: absolute;
+    right:0px ;
+    color: #2b6777;
+}
+.container  .fa-circle-check{
+    position: absolute;
+    left: 0px;
+    color: #2b6777;
+}
